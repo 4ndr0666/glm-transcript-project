@@ -1,0 +1,13 @@
+[project]
+name = "ytsearch"
+version = "0.1.0"
+description = "Search YouTube transcripts from the terminal. No download, no API key, no whisper."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+dependencies = [
+    "youtube-transcript-api>=1.2.4",
+]
+
+[project.scripts]
+ytsearch = "ytsearch:main"
